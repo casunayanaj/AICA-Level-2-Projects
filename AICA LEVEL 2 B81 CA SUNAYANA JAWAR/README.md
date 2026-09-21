@@ -1,2 +1,3 @@
 Problem Statement: GST refunds, audits, and compliance filings require HSN-wise inward supply data, but no portal report provides this directly — it exists only inside encoded e-invoice JSON, forcing manual, invoice-by-invoice extraction.
+
 Solution: GST Inward HSN/SAC Fetcher decodes e-invoice JSON automatically, extracting HSN-wise line items into ready-to-use Excel reports (Invoice Summary, HSN Detail, HSN Summary) — accumulating data across months and multiple GSTINs, eliminating manual extraction entirely.
